@@ -1,4 +1,3 @@
-/* ===== RESET ===== */
 * {
     margin: 0;
     padding: 0;
@@ -124,7 +123,6 @@ nav a:hover {
     box-shadow: 0 0 20px #00c6ff;
 }
 
-/* ===== SKILLS ===== */
 .skill {
     margin-top: 25px;
 }
@@ -143,12 +141,10 @@ nav a:hover {
     background-color: #00c6ff;
 }
 
-/* Adjust skill levels */
 .html { width: 85%; }
 .css { width: 75%; }
 .js { width: 40%; }
 
-/* ===== PROJECTS ===== */
 .projects-container {
     display: flex;
     justify-content: space-evenly;
@@ -212,19 +208,16 @@ nav a:hover {
     color: #00f5ff;         
 }
 .contact-link {
-    color: inherit;        /* keeps same text color */
-    text-decoration: none; /* removes underline */
+    color: inherit;        
+    text-decoration: none; 
     transition: 0.3s ease;
 }
 
 .contact-link:hover {
-    color: #00f5ff;        /* neon glow on hover */
+    color: #00f5ff;      
 }
 
 
-
-
-/* ===== FOOTER ===== */
 footer {
     text-align: center;
     padding: 20px;

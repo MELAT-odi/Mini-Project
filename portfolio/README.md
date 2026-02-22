@@ -1,4 +1,4 @@
-# 🌐 Personal Portfolio Website
+# Personal Portfolio Website
 
 This is my personal portfolio website built using HTML, CSS, and JavaScript.  
 It showcases my skills, projects, and contact information as a Software Engineering student and aspiring frontend developer.

@@ -8,9 +8,8 @@ document.getElementById('startBtn').addEventListener('click', function(){
 while (true) {
     const sleepHour= Number(prompt('How many hours do you sleep per day'))
 
-    // Check if it is a valid number between 0 and 24
     if (!isNaN(sleepHour) && sleepHour >= 0 && sleepHour <= 24) {
-        break; // valid input -> exit loop
+        break; 
     } 
     else {
         alert('Please enter a valid number between 0 and 24.');
@@ -23,9 +22,9 @@ while (true) {
     let music;
 while(true) {
     music= prompt('Do you enjoy music? (yes/no)').toLowerCase().trim();
-        //check if it is only "yes" or "no"
+ 
     if(music==='yes' || music==='no'){
-         break;// valid input -> exit loop
+         break;
     }
     else{
         alert('Please enter yes or no.');
